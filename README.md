@@ -14,7 +14,7 @@
 
 Создаем контейнер
 ```
-docker build . -t fastapiapp  --progress=plain
+docker build . -t fastapiapp --progress=plain
 ```
 
 Запускаем контейнер
