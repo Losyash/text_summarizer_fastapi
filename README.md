@@ -5,13 +5,12 @@
 - [Huggingface](https://huggingface.co/)
 - [Pytorch](https://pytorch.org/)
 
-
 #### 2. Запуск на локальном компьютере
- - создаем локальное окружение (автор использует [conda](https://docs.conda.io/en/latest/));
+ - создаем и активируем локальное окружение (автор использует [conda](https://docs.conda.io/en/latest/));
  - устанавливаем необходимые пакеты (environment.yml или requirements.txt);
  - запускаем веб-сервер командой ```python -m uvicorn app:app --reload ```.
 
-#### 2. Запуск в [docker](https://www.docker.com/).
+#### 3. Запуск в [docker](https://www.docker.com/).
 
 Создаем контейнер
 ```
